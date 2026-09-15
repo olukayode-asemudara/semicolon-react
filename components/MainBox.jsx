@@ -5,7 +5,8 @@ const MainBox = ({img ="/circle.svg",desi="We help",span ="individuals", desc="o
       <>
          <div className={styles.box}>
               <img src={img} alt="alt-left-image"/>
-              <p>{desi} <span className={styles.hero}>{span}</span> {desc}</p>
+
+        <p>{desi} <span className={styles.hero}>{span}</span> {desc}</p>
         </div>
       </>
   )
